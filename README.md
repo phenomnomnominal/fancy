@@ -126,7 +126,7 @@ You probably don't want to ship all of `fancy` to production. If you're using [W
 ```typescript
 plugins: [
     new webpack.NormalModuleReplacementPlugin(/@phenomnomnominal\/fancy/, function (resource) {
-        // resource.request = require.resolve('@phenomnomnominal/fancy').replace('index.js', 'index.prod.js');
+        resource.request = require.resolve('@phenomnomnominal/fancy').replace('index.js', 'index.prod.js');
     })
 ]
 ```
