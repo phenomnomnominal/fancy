@@ -25,6 +25,8 @@ fancy(`
 `);
 ```
 
+[**Try it out here!**](https://stackblitz.com/edit/js-d1yxwk) or look at this:
+
 ![Example](../master/assets/fancy.png?raw=true)
 
 It works good as in Chrome, kinda in Safari, not really in Firefox, and I haven't looked at Edge 😎.
