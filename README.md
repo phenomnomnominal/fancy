@@ -119,7 +119,7 @@ fancy(`
 
 ## Production mode
 
-You probably don't want to ship all of `fancy` to production. If you're using webpack, you can use the production version:
+You probably don't want to ship all of `fancy` to production. If you're using [Webpack](https://webpack.js.org/), you can use the production version:
 
 ```typescript
 plugins: [
